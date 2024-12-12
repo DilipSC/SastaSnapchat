@@ -62,13 +62,13 @@ const RoomCreation: React.FC<RoomCreationProps> = ({ onRoomCreated }) => {
           aria-label="Room Name"
         />
         {error && (
-          <Alert variant="destructive">
+          <Alert variant="destructive"> {/* Change to "destructive" instead of "success" */}
             <AlertCircle className="h-4 w-4" />
             <AlertDescription>{error}</AlertDescription>
           </Alert>
         )}
         {success && (
-          <Alert variant="success">
+          <Alert variant="default"> {/* Change to "default" instead of "success" */}
             <AlertDescription>{success}</AlertDescription>
           </Alert>
         )}

@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "./ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Alert, AlertDescription } from "./ui/alert";
 import { AlertCircle } from 'lucide-react';
 
