@@ -68,7 +68,7 @@ const RoomCreation: React.FC<RoomCreationProps> = ({ onRoomCreated }) => {
           </Alert>
         )}
         {success && (
-          <Alert variant="default"> {/* Change to "default" instead of "success" */}
+          <Alert variant="default"> 
             <AlertDescription>{success}</AlertDescription>
           </Alert>
         )}
