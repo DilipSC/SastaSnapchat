@@ -26,7 +26,7 @@ const RoomEntry: React.FC<RoomEntryProps> = ({ onJoin }) => {
     setIsLoading(true);
     setError("");
 
-    const ws = new WebSocket("ws://localhost:9000");
+    const ws = new WebSocket("https://sastasnapchat-1.onrender.com");
 
     ws.onopen = () => {
       ws.send(JSON.stringify({ type: "join", payload: { roomId } }));
